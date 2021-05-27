@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/faker-ruby/faker.git
-  revision: ad90d4c04d151fe9f8d610cd93d17acf9594097a
+  revision: 3f0ddf95d0905c7bd26409a682b33cec2e79a623
   branch: master
   specs:
     faker (2.18.0)
@@ -16,16 +16,24 @@ GEM
       nio4r (~> 2.3)
       timers (~> 4.1)
     concurrent-ruby (1.1.8)
-    console (1.11.1)
+    console (1.12.0)
       fiber-local
     crack (0.4.5)
       rexml
     diff-lcs (1.4.4)
-    faraday (1.3.0)
+    faraday (1.4.2)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
       faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
       multipart-post (>= 1.2, < 3)
-      ruby2_keywords
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.1.0)
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
     fiber-local (1.0.0)
@@ -51,9 +59,9 @@ GEM
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
     ruby2_keywords (0.0.4)
-    slop (4.8.2)
+    slop (4.9.0)
     timers (4.3.3)
-    webmock (3.12.2)
+    webmock (3.13.0)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)

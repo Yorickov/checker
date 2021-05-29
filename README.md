@@ -1,4 +1,5 @@
 ## Checker
+CLI-utility, pings sites form csv-file, placed in ```/data```, e.g. *rails.csv*
 
 ### Set up
 ```
@@ -7,4 +8,8 @@ make test
 ```
 
 ### Usage
-see Makefile for examples
+run ```./bin/checker --help``` for available options
+
+Example: ```./bin/checker --exclude-solutions --parallel=5 filter=price```
+
+See ```Makefile``` for other examples
